@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ccc, #fff);
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins';
+    border-spacing: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.title {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 35px;    
+}
+
+.p-1, .p-2 {
+    color: #aaa;
+    font-weight: 500;
+    
+}
+
+.p-3 {
+    font-weight: 200;
+
+}
+
+
+.prof-header {
+    color: white;
+    background: linear-gradient(to right, rgb(0, 255, 200), #14bcce);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+
+}
+
+.prof-header > h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.prof-header > h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.adv-header {
+    color: white;
+    background: linear-gradient(to right, rgb(254, 150, 53), #dd540a);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    position: relative;
+}
+
+.adv-header > h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.best-offer {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ddd;
+    color: #333;
+    padding: 5px 20px;
+    border-radius:10px 10px 0px 0px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.adv-header > h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.prem-header {
+    color: white;
+    background: linear-gradient(to right, rgb(255, 66, 66), #c80303);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+
+}
+
+.prem-header > h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.prem-header > h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #aaa;
+}
+
+tbody > td {
+    padding: 10px;
+
+}
+
+.signup-prof {
+    color: white;
+    background: linear-gradient(to right, rgb(0, 255, 200), #14bcce);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: background 1s ease;
+}
+
+.signup-adv {
+    color: white;
+    background: linear-gradient(to right, rgb(254, 150, 53), #dd540a);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: background 1s ease;
+    
+}
+
+.signup-prem {
+    color: white;
+    background: linear-gradient(to right, rgb(255, 66, 66), #c80303);
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    font-weight: 600;
+    font-size: 20px;
+    transition: background 1s ease;
+}
+
+.signup-prem:hover {
+    background: linear-gradient(to right,  rgb(159, 43, 43), #541a1a);
+
+
+}
+
+.signup-adv:hover{
+    background: linear-gradient(to right,  rgb(152, 90, 31), #792d04);
+
+}
+.signup-prof:hover {
+        background: linear-gradient(to right, rgb(30, 201, 164), #0e7b87);
+} 
